@@ -1,0 +1,109 @@
+/*Task1*/
+body.celestial-theme {
+  background-image: url(images/Без\ названия\ \(42\).jfif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.celestial-card {
+  background: rgba(255, 255, 255, 0.85);
+  border: 3px solid #d4b2d8;
+  border-radius: 40px;
+  box-shadow: 0 10px 30px rgba(116, 84, 133, 0.2);
+  max-width: 480px;
+  width: 100%;
+}
+
+.celestial-title {
+  color: #7b699a;
+  letter-spacing: 2px;
+}
+
+.celestial-input {
+  border-radius: 20px;
+  border: 1.5px solid #d4b2d8;
+  background-color: #fffafc;
+}
+
+.celestial-btn {
+  background-color: #9295c4;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.celestial-btn:hover {
+  background-color: #7b7ea9;
+}
+
+/*Task2*/
+body.kawaii-theme {
+  background-image: url(images/Gemini_Generated_Image_sai96ysai96ysai9.jfif);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.kawaii-card {
+  background: #ffe3ec;
+  border: 3px solid #d1496b;
+  border-radius: 20px;
+  box-shadow: 5px 5px 0px #d1496b;
+}
+
+.kawaii-header {
+  background: #f17a99;
+  color: white;
+  border-radius: 12px;
+  padding: 6px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.kawaii-input {
+  border-radius: 15px;
+  border: 2px solid #d1496b;
+}
+
+.kawaii-btn {
+  background-color: #d1496b;
+  color: white;
+  border-radius: 15px;
+  font-weight: bold;
+  border: none;
+}
+
+.kawaii-btn:hover {
+  background-color: #b03452;
+  color: white;
+}
+
+body.cat-theme {
+  background: #a29193;
+  min-height: 100vh;
+}
+/*Task3*/
+.cat-card {
+  border-radius: 20px;
+  overflow: hidden;
+  max-width: 850px;
+  width: 100%;
+}
+
+.cat-left {
+  background-color: #e28a8a;
+  color: white;
+}
+
+.cat-icon {
+  font-size: 80px;
+}
+
+.cat-title {
+  letter-spacing: 4px;
+}
